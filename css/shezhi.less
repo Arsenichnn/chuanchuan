@@ -1,0 +1,93 @@
+@import url(reset.css);
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.box(@dir:horizontal){
+    display: -webkit-box;
+    -webkit-box-orient: @dir;
+}
+
+html{
+    font-size: 62.5%;
+}
+html,body,.wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.wrapper{
+    .box(vertical);
+    header{
+        .full(100%,3.4rem,#f95666);
+        .box;
+        -webkit-box-align: center;
+        color: #ffffff;
+        h4{
+            font-size: 1.7rem;
+            font-weight: 400;
+            color: #ffffff;
+            -webkit-box-flex: 1;
+            text-align: center;
+            padding-right: 3.2rem;
+            img{
+                color: #ffffff;
+                float: left;
+                width: 2.1rem;
+                padding: 0 0.6rem;
+            }
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        .box(vertical);
+        overflow-x: hidden;
+        background: #f3f3f3;
+        .main{
+            width: 100%;
+            height: auto;
+            margin-top: 1rem;
+            .nei{
+                width: 100%;
+                height: 4.3rem;
+                background: #ffffff;
+                border-bottom: 1px solid #cccccc;
+                line-height: 4.3;
+                p{
+                    font-size: 1.5rem;
+                    display: inline-block;
+                    padding-left: 2rem;
+                    line-height: 4.3rem;
+                }
+                img{
+                    width: 0.8rem;
+                    float: right;
+                    margin-right: 1.5rem;
+                    margin-top: 1rem;
+                }
+                h{
+                    font-size: 1.5rem;
+                    float: right;
+                    margin-right: 1.5rem;
+                }
+            }
+        }
+        a{
+            display: block;
+            width: auto;
+            height: 4.4rem;
+            font-size: 1.6rem;
+            color: #ffffff;
+            background: #f9384b;
+            margin: 0 2rem;
+            border-radius: 0.6rem;
+            margin-top: 13rem;
+            text-align: center;
+            line-height: 4.4rem;
+        }
+    }
+    footer{
+        
+    }
+}

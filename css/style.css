@@ -1,0 +1,150 @@
+@import url(reset.css);
+html {
+  font-size: 62.5%;
+}
+html,
+body,
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.wrapper {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  background: #f3f3f3;
+}
+.wrapper section {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow-x: hidden;
+}
+.wrapper section .header {
+  width: 100%;
+  height: 15rem;
+  background: #f3f3f3;
+  background: #ffffff url(../img/24.png) no-repeat;
+  background-size: 100% auto;
+  position: relative;
+}
+.wrapper section .header .tou {
+  width: 8rem;
+  height: 11.5rem;
+  background: none;
+  margin: 2rem auto;
+}
+.wrapper section .header .tou img {
+  width: 100%;
+}
+.wrapper section .header .tou p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+.wrapper section .header .xx {
+  width: 9rem;
+  height: 7rem;
+  background: none;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.wrapper section .header .xx span {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+.wrapper section .header .xx span img {
+  width: 2.2rem;
+}
+.wrapper section .header .xx p {
+  width: 9rem;
+  height: 2.2rem;
+  background: none;
+  margin-top: 1.5rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  text-align: center;
+  background: url(../img/bj.png) no-repeat;
+  background-size: 100%;
+}
+.wrapper section .title {
+  width: 100%;
+  height: 6.5rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrapper section .title .tit {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+.wrapper section .title .tit .top {
+  width: 100%;
+  height: 2.5rem;
+}
+.wrapper section .title .tit .top img {
+  display: inline-block;
+  width: 3rem;
+  text-align: center;
+}
+.wrapper section .title .tit .top span {
+  display: inline-block;
+  font-size: 1rem;
+}
+.wrapper section .title .tit p {
+  font-size: 1.3rem;
+}
+.wrapper section .main {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+.wrapper section .main .nei {
+  width: 100%;
+  height: 4.3rem;
+  background: #ffffff;
+  border-bottom: 1px solid #cccccc;
+  line-height: 4.3;
+}
+.wrapper section .main .nei p {
+  display: inline-block;
+  background: url(../img/jf.png) no-repeat 2rem center;
+  background-size: 1.9rem;
+  padding-left: 4.7rem;
+}
+.wrapper section .main .nei span {
+  display: inline-block;
+}
+.wrapper section .main .nei img {
+  width: 0.8rem;
+  float: right;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+}
+.wrapper footer {
+  width: 100%;
+  height: 5rem;
+  background: #ffffff;
+  border-top: 1px solid #c6c6c6;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 1rem;
+}
+.wrapper footer a {
+  display: block;
+  text-align: center;
+  line-height: 5rem;
+  -webkit-box-flex: 1;
+}
+.wrapper footer a img {
+  width: 2rem;
+}
+.wrapper footer a p {
+  display: block;
+  font-size: 1.2rem;
+}
